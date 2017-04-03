@@ -14,6 +14,13 @@ function greeting(language) {
 }
 
 function isTenOrFive(num) {
+  if (num == 10) {
+    return true;
+  } else if (num ==5) {
+    return true;
+  } else  {
+    return false;
+      }
   //return true if num is 10 or 5
   //otherwise return false
 }
@@ -59,7 +66,7 @@ function getArrayLength(arr) {
 }
 
 function incrementByOne(arr) {
-  //arr is an array of integers  
+  //arr is an array of integers
   //increase each integer by one
   //return the array
 }
